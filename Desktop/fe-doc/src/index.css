@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* ANTD Overiding */
+input {
+  border-radius: 6px !important;
+  border: 1px solid gray !important;
+  height: 38px;
+}
+input:focus,
+.ant-picker {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid rgb(63, 63, 240) !important;
+}
+
+label {
+  font-size: 16px !important;
+  color: black !important;
+}
+.ant-form-item {
+  margin: 10px 0px !important;
+}
+.ant-picker {
+  border-radius: 6px !important;
+  border: 1px solid gray !important;
+  height: 38px;
+}
+.ant-picker-input input {
+  border: none !important;
+}
+/* Common Styling */
+.spinner-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(7, 83, 197, 0.92);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+}
+.spinner-border {
+  height: 4rem;
+  width: 4rem;
+  color: rgb(8, 50, 167);
+}
+.page-title {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+.normal-text {
+  font-size: 1rem;
+}
+.card {
+  box-shadow: 0 0 2px #d3efff;
+  background-color: #f5fbff !important;
+  border-color: #b0e5ff !important;
+  border-radius: 10px !important;
+  margin-bottom: 10px;
+  padding-top: 20px !important;
+  padding-left: 20px !important;
+}
+
+.primary-button {
+  background-color: rgba(21, 112, 239, 1) !important;
+  border-color: rgb(4, 104, 211) !important;
+  height: 40px !important;
+  width: 100% !important;
+  color: white !important;
+}
+.anchor {
+  color: black !important;
+  /* text-decoration: underline; */
+  font-size: 16px;
+  cursor: pointer;
+}
+.anchor:hover {
+  text-decoration: underline;
+}
+/*  */
+.authentication {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.authentication-form {
+  width: 400px;
+}
+
+.authentication .card-title {
+}
